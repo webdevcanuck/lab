@@ -29,7 +29,7 @@ function preLoad50() {
     time50 = setInterval(function() {
         $("#preloadbar div").width(a++);
         //console.log("a:" + a + " w:" + w);
-        if (a > (w / 2)) {
+        if (a > (w / 3)) {
             clearInterval(time50);
             time25 = setInterval(function() {
                 $("#preloadbar div").width(a++);
@@ -47,7 +47,7 @@ function preLoad50() {
                                 $("#preloader").remove();
                               });
                             }
-                        }, 50)
+                        }, 10)
                     }, 1000);
                 }
             }, 100)
