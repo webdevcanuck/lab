@@ -16,7 +16,7 @@
     time50 = null;
 
     var bod = $("body");
-    bar = '<div id="preloadbar" style="width:50%; height:40px; margin:0 auto; position:relative; top:50%; margin-top:-20px"><div style="background:#CC0000; width:0; height:100%"></div></div>'
+    bar = '<div id="preloadbar" style="overflow:hidden; width:50%; height:40px; margin:0 auto; position:relative; top:50%; margin-top:-20px"><div style="background:#CC0000; width:0; height:100%"></div></div>'
     preload = '<div id="preloader" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#FFF; z-index:99999">' + bar + '</div>';
     bod.append(preload);
     preLoad50();
